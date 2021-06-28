@@ -1,0 +1,327 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.bg-header{
+   background-color: red;
+  position: fixed;
+   width: 100%; 
+   height: 80px;
+   z-index: 5;
+   margin-bottom: 0px;
+}
+
+
+ .header-text ul li   
+{
+    float:left;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+ .header-text ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+
+}
+.header-text ul{
+    list-style: none;
+}
+#home{
+    background-color:red;
+    min-height: 100vh;
+    
+}
+#home h2{
+   font-size: 50px;
+    
+}
+#home h4{
+    padding-top: 50px;
+    font-size:22px;    
+ }
+
+.sanibar-div{
+    margin-top: 150px;
+    color:white;
+}
+.btn{
+    color: red;
+    font-weight: 500px;
+    padding: 5px 55px;
+    background-color: white;
+    font-size: 20px;
+}
+#typed{
+    font-size: 30px;
+}
+
+#how-it-works{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom:150px;
+}
+#how-it-works p{
+    font-size: 30px;
+}
+#how-it-works h4{
+    font-size: 60px;
+}
+
+
+
+
+
+/* small boxes after main div */
+
+.one {
+    height: 110px;
+    width: 110px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid red;
+    z-index: -1;
+
+
+}
+
+.two {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid #ff0000;
+    margin: 1% 0% 0% 1%;
+}
+
+
+.below{
+    margin-top: 10px;
+}
+.num
+{
+    font-size: 50px;
+    color:rgba(236, 29, 37, 0.5);
+}
+.below p{
+    font-size: 20px;
+    color: #454545;
+}
+.below span{
+    color: #ec1d25;;
+
+}
+
+/* ///creating the forme */
+#form-bg {
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 600px;
+    display: none;
+} 
+#form-bg h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+/* .ordr-form {
+    width: 40%;
+    margin:auto;  
+} */
+
+.order-flex {
+    display: flex;
+    justify-content: center;
+}
+.ordrform-width
+{
+    width: 50%;
+    margin: auto;
+}
+.ordr-form{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+#tab-1 {
+    width: 50%;
+    margin-right:20px ;
+}
+#tab-1 input{
+width: 100%;
+height: 45px;
+}
+#tab-2
+{
+    width: 33%;
+    margin-right: 20px;
+}
+#tab-2 input{
+    width: 100%;
+    height: 20px;
+    height: 45px;
+}
+#tab-3 {
+    width: 100%;
+    margin-right: 20px;
+}
+#tab-3 input {
+    width: 100%;
+    height: 45px;
+}
+#tab-1 label
+{
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+#tab-2 label
+{
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+#tab-3 label
+{
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.radio-btn
+{
+    display: flex; 
+    justify-content: center;
+    margin: 10px;
+}
+.radio-margin{
+    margin-right: 40px;
+}
+.liketo {
+    margin-top: 30px;
+}
+
+/* choose */
+
+.choose{
+    background-color: #f6f6f6;
+    height: 1000px;   
+}
+.choose h4{
+    color: red;
+    text-align: center;
+    margin-top: 100px;
+    font-size:50px;
+    color: black;
+}
+.choose h5{
+    font-size: 30px;
+    font-weight: 100px;
+}
+
+/* Services */
+#services{
+    margin-bottom: 25px;
+}
+#services-header
+{
+ font-size: 48px;
+ text-align: center;
+ margin-top: 100px;
+ margin-bottom:100px;
+}
+
+.services-circles{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border:5px solid red; 
+    /* margin-left: 36px; */
+}
+.services-circles img{
+margin-top: 10px;
+margin-left: 7px;
+   height: 110px;
+   width: 110px;
+    
+   
+}
+.services-circles img:hover{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 125px;
+   width: 125px;
+}
+#services-belowheader
+{
+ font-size: 30px;
+  margin-top: 30px;
+ color: #ec1d25;
+
+}
+#weight
+{
+    font-size:20px ;
+}
+
+.pricing-list-btn
+{
+    border: 2px solid transparent;
+    background: #ec1d25;
+    text-align: center;
+    width: 300px;
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+    
+}
+.footer-bg
+{
+    background-color: #ec1d25;
+    color: white;
+}
+
+footer h4{
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+footer ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+.footer-2nd-ul{
+    margin-top: 62px;
+    list-style: none;
+    
+}
+footer ul li {
+    font-size: 15px;
+}
+.footer-contact
+{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+footer h5{
+    color: white;
+    font-size: 30px;
+   margin-top: 0px;
+}
+.contact p{
+    margin: 0px;
+    padding: 0px;
+}
+/* //last part */
+.last{
+    color: red;
+    font-size: 15px;
+    margin-top:40px;
+    margin-top:40px;
+}
